@@ -1,0 +1,133 @@
+@font-face {
+  font-family: "CentryGothic"; 
+  src: url("assets/fonts/centurygothic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "CentryGothic_bold"; 
+  src: url("assets/fonts/centurygothic_bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+.warning{
+	display: none;
+}
+
+.wrapper{
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header{
+	background-color: rgba(96, 122, 87, 0.75);
+	border: 2px solid black;
+	border-radius: 7px;
+	color: #E1E8E7;
+	width: 80%;
+	height: 100px;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	border-bottom: 3px solid black;
+	text-align: center;
+	box-shadow: 10px 0px 15px #101911;
+}
+
+.header_text{
+	height: 20px;
+	color: #E1E8E7;
+	font-family: "CentryGothic_bold";
+	font-size: 1.5em;
+	text-align: center;
+	padding: 10px;
+	text-shadow: 5px 5px 5px #101911;
+}
+
+.content{
+	background-color: rgba(96, 122, 87, 0.75);
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 15px;
+	width: 80%;
+	height: 500px;
+	border:3px solid #101416;
+	border-radius:10px;
+	box-shadow: 10px 0px 15px #101911;
+	text-shadow: 5px 5px 5px #101911;
+}
+.content_info{
+	color: #E1E8E7;
+	font-family: "CentryGothic";
+	font-size: 19px;
+	text-align: center;
+}
+
+.content_info_2{
+	color: #E1E8E7;
+	font-family: "CentryGothic_bold";
+	font-size: 55px;
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+
+.body{
+	background-image: url("assets/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.link_style{
+	color: #E1E8E7;
+	text-decoration: none;
+}
+.link_style:hover{
+	color: #7b8c8f;
+}
+
+@media (orientation: portrait) {
+  .warning{
+	  color: black;
+	  display: block;
+	  background-color: rgb(96, 122, 87);
+	  width: 80%;
+	  margin-left: auto;
+	  margin-right: auto;
+	  color: #E1E8E7;
+	  font-family: "CentryGothic_bold";
+	  font-size: 55px;
+	  margin-top: 100px;
+	  text-align: center;
+  }
+  .body{
+  	background-image: url();
+	background-color: rgb(96, 122, 87);
+  }
+  .wrapper{
+  	display: none;
+  }
+  
+  .header{
+	display: none;
+  }
+  
+  .header_text{
+  	display: none;
+  }
+  
+  .content{
+  	display: none;
+  }
+  .content_info{
+  	display: none;
+  }
+  
+  .content_info_2{
+  	display: none;
+  }
+}

@@ -1,0 +1,136 @@
+@font-face {
+  font-family: "CentryGothic_bold"; 
+  src: url("assets/fonts/centurygothic_bold.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+@font-face {
+  font-family: "CentryGothic"; 
+  src: url("assets/fonts/centurygothic.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: normal; 
+} 
+
+body{
+	margin: 0;
+	font-family: 'CentryGothic_bold';
+	background-image: url("assets/bg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.game_screen{
+	margin-left: 100px;
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+.button_next{
+	font-family: 'CentryGothic_bold';
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	right: 0;
+	padding: 5px;
+	width: 100px;
+	height: 100vh;
+	color: #D5D5D7;
+	background-color: rgba(96, 122, 87, 0.75);
+	border: 2px solid black;
+	border-radius: 7px;
+	text-shadow: 5px 5px 5px #101911;
+}
+.button_next:hover{
+	background-color: rgba(52, 62, 40, 0.6);
+}
+
+.button_back{
+	font-family: 'CentryGothic_bold';
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 0;
+	padding: 5px;
+	width: 100px;
+	height: 100vh;
+	color: #D5D5D7;
+	background-color: rgba(96, 122, 87, 0.75);
+	border: 3px solid black;
+	border-radius: 7px;
+	text-shadow: 5px 5px 5px #101911;
+}
+.button_back:hover{
+	background-color: rgba(52, 62, 40, 0.6);
+}
+
+.pickture{
+	width: calc(100% - 100px);
+	max-height: 100vh;
+	overflow: hidden;
+}
+
+.percone0{
+	width: 350px;
+	height: 570px;
+	float: left;
+	margin-left: 0px;
+	margin-top: -10px;
+	transform: translate(0px, -560px);
+	z-index: -1;
+}
+
+
+.percone1{
+	background-image: url(assets/sena.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 350px;
+	height: 570px;
+	float: left;
+	margin-left: 0px;
+	margin-top: -10px;
+	transform: translate(0px, -560px);
+	z-index: -1;
+}
+
+.percone2{
+	background-image: url(assets/tola.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 300px;
+	height: 580px;
+	float: right;
+	margin-left: 0px;
+	margin-top: -10px;
+	transform: translate(-100px, -550px);
+	z-index: -1;
+}
+
+.text_block{
+	background-color: rgba(33, 55, 27, 0.7);
+	border: 3px solid #080A0C;
+	border-radius: 10px;
+	backdrop-filter: blur(5px);
+	box-shadow: 5px 5px 20px black;
+	width: 500px;
+	height: 200px;
+	margin-left: 10px;
+	margin-top: -10px;
+	transform: translate(0px, 350px);
+	text-shadow: 5px 5px 5px #101911;
+	z-index: 1;
+}
+
+p{
+	color: #D6E8EB;
+	padding-left: 15px;
+}
+
+a{
+	color: #D6E8EB;
+	text-decoration: none;
+}
+a:hover{
+	color: #7b8c8f;
+}
